@@ -1,0 +1,2 @@
+seed,random_trials,random_finite,random_infinite,random_excluded,family_instances,worst_source,heuristic_maximum_utilization,optimum_maximum_utilization,worst_ratio,worst_ratio_exact,worst_ratio_infinite
+20260910,80,41,2,37,9,random(trial=18),,1.0,,infinity,True

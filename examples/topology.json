@@ -1,0 +1,12 @@
+{
+  "directed": false,
+  "nodes": ["A", "B", "C", "D", "E", "F"],
+  "links": [
+    {"source": "A", "target": "B", "capacity": 10},
+    {"source": "B", "target": "D", "capacity": 10},
+    {"source": "A", "target": "C", "capacity": 10},
+    {"source": "C", "target": "E", "capacity": 10},
+    {"source": "E", "target": "D", "capacity": 10},
+    {"source": "B", "target": "C", "capacity": 4}
+  ]
+}

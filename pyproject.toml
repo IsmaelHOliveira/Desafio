@@ -1,0 +1,9 @@
+[project]
+name = "minimal-online-routing"
+version = "0.1.0"
+description = "Simulador mínimo e determinístico de roteamento online"
+requires-python = "==3.12.13"
+dependencies = []
+
+[tool.uv]
+package = false

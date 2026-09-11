@@ -1,0 +1,81 @@
+trial,nodes,links,demands,heuristic_maximum_utilization,optimum_maximum_utilization,ratio,ratio_exact,ratio_infinite,status,exclusion_reason
+0,4,3,3,,,,,False,excluded,instância inviável também para o ótimo offline
+1,4,5,2,1.0,0.75,1.3333333333333333,4/3,False,finite,
+2,7,8,4,,,,,False,excluded,instância inviável também para o ótimo offline
+3,6,6,4,,,,,False,excluded,instância inviável também para o ótimo offline
+4,4,3,4,,,,,False,excluded,instância inviável também para o ótimo offline
+5,5,4,5,,,,,False,excluded,instância inviável também para o ótimo offline
+6,5,6,4,1.0,1.0,1.0,1,False,finite,
+7,7,11,3,0.75,0.75,1.0,1,False,finite,
+8,6,8,5,,,,,False,excluded,instância inviável também para o ótimo offline
+9,7,7,6,,,,,False,excluded,instância inviável também para o ótimo offline
+10,6,5,4,,,,,False,excluded,instância inviável também para o ótimo offline
+11,5,6,5,,,,,False,excluded,instância inviável também para o ótimo offline
+12,6,5,6,,,,,False,excluded,instância inviável também para o ótimo offline
+13,7,9,2,,,,,False,excluded,instância inviável também para o ótimo offline
+14,6,6,3,1.0,1.0,1.0,1,False,finite,
+15,6,8,4,0.75,0.75,1.0,1,False,finite,
+16,7,11,4,,,,,False,excluded,instância inviável também para o ótimo offline
+17,7,11,3,0.75,0.75,1.0,1,False,finite,
+18,5,7,5,,1.0,,infinity,True,infinite,"heurística inviável, mas ótimo offline viável"
+19,6,7,6,,,,,False,excluded,instância inviável também para o ótimo offline
+20,7,8,3,0.75,0.75,1.0,1,False,finite,
+21,6,9,3,1.0,0.6666666666666666,1.5,3/2,False,finite,
+22,4,4,3,0.6666666666666666,0.6666666666666666,1.0,1,False,finite,
+23,4,6,2,0.5,0.3333333333333333,1.5,3/2,False,finite,
+24,4,4,6,,,,,False,excluded,instância inviável também para o ótimo offline
+25,5,5,4,0.42857142857142855,0.42857142857142855,1.0,1,False,finite,
+26,6,7,4,1.0,0.8333333333333334,1.2,6/5,False,finite,
+27,5,6,3,,,,,False,excluded,instância inviável também para o ótimo offline
+28,7,9,4,1.0,1.0,1.0,1,False,finite,
+29,6,6,2,,,,,False,excluded,instância inviável também para o ótimo offline
+30,4,3,5,,,,,False,excluded,instância inviável também para o ótimo offline
+31,7,8,4,,1.0,,infinity,True,infinite,"heurística inviável, mas ótimo offline viável"
+32,7,7,6,,,,,False,excluded,instância inviável também para o ótimo offline
+33,5,6,2,0.75,0.75,1.0,1,False,finite,
+34,4,5,4,0.7142857142857143,0.5714285714285714,1.25,5/4,False,finite,
+35,6,5,6,0.8571428571428571,0.8571428571428571,1.0,1,False,finite,
+36,5,5,2,,,,,False,excluded,instância inviável também para o ótimo offline
+37,5,6,4,,,,,False,excluded,instância inviável também para o ótimo offline
+38,6,11,5,0.8,0.5,1.6,8/5,False,finite,
+39,6,8,4,1.0,1.0,1.0,1,False,finite,
+40,4,4,5,,,,,False,excluded,instância inviável também para o ótimo offline
+41,7,6,2,1.0,1.0,1.0,1,False,finite,
+42,6,6,3,,,,,False,excluded,instância inviável também para o ótimo offline
+43,4,5,6,,,,,False,excluded,instância inviável também para o ótimo offline
+44,6,6,3,,,,,False,excluded,instância inviável também para o ótimo offline
+45,6,9,6,0.6666666666666666,0.6666666666666666,1.0,1,False,finite,
+46,5,4,4,,,,,False,excluded,instância inviável também para o ótimo offline
+47,4,4,3,0.6666666666666666,0.42857142857142855,1.5555555555555556,14/9,False,finite,
+48,7,6,6,,,,,False,excluded,instância inviável também para o ótimo offline
+49,6,8,5,0.6,0.6,1.0,1,False,finite,
+50,7,10,4,0.6666666666666666,0.6666666666666666,1.0,1,False,finite,
+51,6,5,2,,,,,False,excluded,instância inviável também para o ótimo offline
+52,4,4,5,1.0,0.6666666666666666,1.5,3/2,False,finite,
+53,5,6,4,,,,,False,excluded,instância inviável também para o ótimo offline
+54,5,7,5,,,,,False,excluded,instância inviável também para o ótimo offline
+55,5,7,2,0.6666666666666666,0.5,1.3333333333333333,4/3,False,finite,
+56,4,4,3,1.0,1.0,1.0,1,False,finite,
+57,5,7,3,0.75,0.75,1.0,1,False,finite,
+58,4,3,2,,,,,False,excluded,instância inviável também para o ótimo offline
+59,6,5,3,1.0,1.0,1.0,1,False,finite,
+60,6,6,5,,,,,False,excluded,instância inviável também para o ótimo offline
+61,5,6,2,1.0,1.0,1.0,1,False,finite,
+62,5,5,2,0.5,0.5,1.0,1,False,finite,
+63,7,11,4,0.42857142857142855,0.3333333333333333,1.2857142857142858,9/7,False,finite,
+64,5,5,5,,,,,False,excluded,instância inviável também para o ótimo offline
+65,5,7,4,,,,,False,excluded,instância inviável também para o ótimo offline
+66,5,5,5,1.0,1.0,1.0,1,False,finite,
+67,5,5,3,,,,,False,excluded,instância inviável também para o ótimo offline
+68,4,5,4,1.0,1.0,1.0,1,False,finite,
+69,7,10,4,0.5,0.5,1.0,1,False,finite,
+70,6,6,5,,,,,False,excluded,instância inviável também para o ótimo offline
+71,4,5,5,0.6666666666666666,0.5714285714285714,1.1666666666666667,7/6,False,finite,
+72,7,9,2,0.6666666666666666,0.5,1.3333333333333333,4/3,False,finite,
+73,6,6,4,,,,,False,excluded,instância inviável também para o ótimo offline
+74,6,7,6,1.0,1.0,1.0,1,False,finite,
+75,7,10,5,1.0,1.0,1.0,1,False,finite,
+76,5,6,3,1.0,1.0,1.0,1,False,finite,
+77,5,5,2,0.5,0.5,1.0,1,False,finite,
+78,5,4,6,,,,,False,excluded,instância inviável também para o ótimo offline
+79,5,5,2,1.0,1.0,1.0,1,False,finite,

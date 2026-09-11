@@ -1,0 +1,157 @@
+{
+  "configuration": {
+    "alpha": 1.0,
+    "beta": 5.0,
+    "candidate_limit": 8,
+    "family_sizes": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ],
+    "objective": "minimize maximum link utilization; route every demand",
+    "seed": 20260910,
+    "trials": 80
+  },
+  "demands": [
+    {
+      "bandwidth": 2.0,
+      "id": "r018-d2",
+      "source": "v3",
+      "target": "v2"
+    },
+    {
+      "bandwidth": 1.0,
+      "id": "r018-d1",
+      "source": "v4",
+      "target": "v0"
+    },
+    {
+      "bandwidth": 2.0,
+      "id": "r018-d4",
+      "source": "v2",
+      "target": "v0"
+    },
+    {
+      "bandwidth": 1.0,
+      "id": "r018-d0",
+      "source": "v3",
+      "target": "v2"
+    },
+    {
+      "bandwidth": 2.0,
+      "id": "r018-d3",
+      "source": "v0",
+      "target": "v4"
+    }
+  ],
+  "heuristic_maximum_utilization": null,
+  "heuristic_paths": [
+    [
+      "v3",
+      "v0",
+      "v2"
+    ],
+    [
+      "v4",
+      "v1",
+      "v0"
+    ],
+    [
+      "v2",
+      "v1",
+      "v0"
+    ],
+    [
+      "v3",
+      "v2"
+    ],
+    null
+  ],
+  "heuristic_rejected_demands": [
+    "r018-d3"
+  ],
+  "offline_explored_states": 19,
+  "optimum_maximum_utilization": 1.0,
+  "optimum_paths": [
+    [
+      "v3",
+      "v2"
+    ],
+    [
+      "v4",
+      "v1",
+      "v0"
+    ],
+    [
+      "v2",
+      "v0"
+    ],
+    [
+      "v3",
+      "v0",
+      "v2"
+    ],
+    [
+      "v0",
+      "v1",
+      "v4"
+    ]
+  ],
+  "ratio": null,
+  "ratio_exact": "infinity",
+  "ratio_infinite": true,
+  "source": "random(trial=18)",
+  "topology": {
+    "directed": false,
+    "links": [
+      {
+        "capacity": 3.0,
+        "source": "v0",
+        "target": "v1"
+      },
+      {
+        "capacity": 3.0,
+        "source": "v0",
+        "target": "v2"
+      },
+      {
+        "capacity": 3.0,
+        "source": "v0",
+        "target": "v3"
+      },
+      {
+        "capacity": 3.0,
+        "source": "v1",
+        "target": "v2"
+      },
+      {
+        "capacity": 3.0,
+        "source": "v1",
+        "target": "v4"
+      },
+      {
+        "capacity": 2.0,
+        "source": "v2",
+        "target": "v3"
+      },
+      {
+        "capacity": 4.0,
+        "source": "v2",
+        "target": "v4"
+      }
+    ],
+    "nodes": [
+      "v0",
+      "v1",
+      "v2",
+      "v3",
+      "v4"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+[
+  {"id": "d1", "source": "B", "target": "D", "bandwidth": 6},
+  {"id": "d2", "source": "A", "target": "D", "bandwidth": 4},
+  {"id": "d3", "source": "A", "target": "B", "bandwidth": 6},
+  {"id": "d4", "source": "A", "target": "F", "bandwidth": 1}
+]

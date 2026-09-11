@@ -1,0 +1,3 @@
+# No third-party runtime or test dependencies.
+# Python itself is fixed by .python-version and pyproject.toml.
+
